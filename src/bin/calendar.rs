@@ -304,9 +304,9 @@ async fn rtc_update(
     delay: embassy_time::Duration
 ) {
     // Initialize to a specific date/time (2025-07-18 19:38:20)
-    let mut now = NaiveDate::from_ymd_opt(2025, 7, 18)
+    let mut now = NaiveDate::from_ymd_opt(2025, 7, 20)
         .unwrap()
-        .and_hms_opt(19, 38, 20)
+        .and_hms_opt(18, 00, 00)
         .unwrap();
 
     let mut ticker = Ticker::every(delay);
