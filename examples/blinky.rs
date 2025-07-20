@@ -1,11 +1,4 @@
 //! STM32 Blue Pill Basic Blinky Example
-//! =============================================================================================
-//! 
-//! Date			Author          Notes
-//! 20/7/2025	YHY             Initial release
-//! 
-//!==============================================================================================
-//!
 //! This is a minimal embedded Rust program that blinks the onboard LED (PC13)
 //! on the STM32F103 "Blue Pill" development board. It demonstrates:
 //! 1. Basic no_std/no_main setup
